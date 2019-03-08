@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="authors" content="Olivier Bertrand Abdel Laurent">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great%7CGochi+Hand%7CKirang+Haerang%7CPress+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+  <script src="assets/js/jquery-3.2.1.js"></script>
+  <title>Chouette Web</title>
+</head>
+<body>
+  <!--container du fond d'écran-->
+  <div class="container-fluid">
+    <!--Titre-->
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="titleOwl">Chouette Web</div>
+      </div>
+    </div>
+    <!--Question-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="question">Question : Qu'est-ce qu'un joystique ?</div></br>
+        </div>
+      </div>
+    </div>
+    <!--Slide chouette-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex">
+          <div class="col-md-2">
+            <img src="assets/images/orig.png" alt="chouette" id="owl">
+          </div>
+          <div class="col-md-7 offset-md-1">
+          </br>
+          <!--Boutons réponse 1-->
+          <div class="d-flex">
+            <button type="button" class="btn btn-primary mb-3 mr-5" id="rep1">Réponse 1</button>
+            <p class="mt-2">Le nom de la futur Playstation</p>
+          </div>
+          <!--Boutons réponse 2-->
+          <div class="d-flex">
+            <button type="button" class="btn btn-danger mb-3 mr-5" id="rep2">Réponse 2</button>
+            <p class="mt-2">Un personnage de LadyBug</p>
+          </div>
+          <!--Boutons réponse 3-->
+          <div class="d-flex">
+            <button type="button" class="btn btn-warning mb-3 mr-5" id="rep3">Réponse 3</button>
+            <p class="mt-2">Une manette de jeux vidéo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Réponse correction-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-4">
+        <div id="result"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 offset-md-9">
+      <div><a href="page4.html"><button type="button" class="btn btn-success" id="nextPage">On continue par ici !</button></a></div></div>
+    </div>
+    <!--div contenaire fluide fin de page-->
+  </div>
+  <script src="assets/js/projet2.js"></script>
+</body>
+</html>
